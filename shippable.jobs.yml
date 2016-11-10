@@ -4,7 +4,7 @@ jobs:
 
 
 # manifest gen for VISUALIZER     
-  - name: dv-man-3
+  - name: dv-man-34
     type: manifest
     steps:
       - IN: dv-img
@@ -14,7 +14,7 @@ jobs:
 #/ manifest gen for VISUALIZER
 
 # TEST deployment for VISUALIZER to Amazon ECS
-  - name: dv-test-ecs-2
+  - name: dv-test-ecs-34
     type: deploy
     steps:
       - IN: dv-man
